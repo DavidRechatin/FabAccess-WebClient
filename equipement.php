@@ -1,3 +1,10 @@
+﻿<!--<!DOCTYPE html>
+<html>
+<head>
+    <!-- En-tête de la page -->
+    <!--<meta charset="utf-8" />
+    <title>équipement</title>
+</head>-->
 <!-- SESSION START FUNCTION -->
 <?php
     session_start ()
@@ -43,19 +50,19 @@
 					<div class="module widget-handle language">
 						<ul class="menu">
 							<li class="#">
-							     <a href="adherents.php">Adhérents</a>
+							 <a href="adherents.php">Adhérents</a>
 							</li>
                             <li class="#">
-							     <a href="equipments.php">Equipements</a>
+							 <a href="equipments.php">Equipements</a>
 							</li>
                             <li class="#">
-							     <a href="incidents.php">Incidents</a>
+							 <a href="incidents.php">Incidents</a>
 							</li>
                             <li class="#">
-							     <a href="statistiques.php">Statistiques</a>
+							 <a href="statistiques.php">Statistiques</a>
 							</li>
                             <li class="#">
-							     <a href="contact.php">Contact</a>
+							 <a href="contact.php">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -66,39 +73,27 @@
 			</div>
 		</nav>
 	</div>
+	
+	</br></br></br>
+<h3>Liste des équipements :</h3>
 
-    
-    
-    
-    
-    
-    </br></br></br></br>
-    
-    <div class="row">
-        <h2>Gestionnaire des adhérents</h2>
-    </div>
+<ul>
+<li>équipement 1
+<input type="checkbox" name="case" id="case" /> <label for="case">Fonctionne</label>
+<input type="checkbox" name="case" id="case" /> <label for="case">Ne fonctionne pas</label>
+</li>
+</ul>
 
-    <!-----------------
-    INSERER JS ICI
-    ------------------->
-    </br></br></br></br></br></br></br></br>
+<h3>Ajouter un équipement :</h3>
+<form>
+<input id="nomequip" name="nomequip" type="text" placeholder="nom équipement" required /><br />
+<input type="submit" value="Valider" />
+</form>
 
-
-    <div>
-        <h2>Ajouter un adhérent</h2>
-    </div>
-    <form method="post" action="#?action=submit">
-        <input id="prenom" name="prenom" type="text" placeholder="Prenom" required /><br />
-        <input id="nom" name="nom" type="text" placeholder="Nom" required /><br />
-        <input id="adresse" name="adresse" type="text" placeholder="Adresse" required /><br />
-        <input id="tel" name="tel" type="text" placeholder="Téléphone (mobile ou fixe)" required /><br />
-        <input type="submit" value="Enregister" style="text-center"/>
-    </form>
-    
-
-	<script src="src/jQuery.js"></script>
-	<script src="src/Bootstrap.js"></script>
+<script src="src/jQuery.js"></script>
+<script src="src/Bootstrap.js"></script>
 
 
 </body>
 </html>
+	
