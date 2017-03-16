@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Connexion au FabAccess</title>
-    <link rel="stylesheet" href="OF-Connexfabaccess.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="src/style.css" rel="stylesheet" type="text/css" media="all">
-	<link href="src/css.css" rel="stylesheet" type="text/css">
-	<link href="src/police.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
 
     <div class="logo">
       <img src="http://i1.wp.com/www.openfactory42.org/wp-content/uploads/sites/17/2015/03/retina120x70.png?fit=228%2C140" alt="" />
