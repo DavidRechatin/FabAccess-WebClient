@@ -86,6 +86,10 @@
 									</li>
 								</ul>
 							</li>
+							<li class="#">
+							<a href="contact.php">Contact</a>
+								<ul>
+									<li>
 						</ul>
 					</div>
 				</div>

@@ -87,7 +87,7 @@
 								</ul>
 							</li>
 						<li class="#">
-							<a href="econtact.php">Contact</a>
+							<a href="contact.php">Contact</a>
 								<ul>
 									<li>
 						</ul>
